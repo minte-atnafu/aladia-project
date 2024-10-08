@@ -1,6 +1,16 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Login/>
   </div>
+
 </template>
+
+<script>
+import Login from './componets/Login.vue';
+
+export default {
+  components: {
+    Login,
+  },
+};
+</script>
