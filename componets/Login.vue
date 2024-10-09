@@ -97,7 +97,7 @@
 }
 
    
-   .header-section {
+ .header-section {
      display: flex;
      align-items: center;
      justify-content: center;

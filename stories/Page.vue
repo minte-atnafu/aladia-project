@@ -55,7 +55,7 @@
 
 <script>
 import './page.css';
-import MyHeader from './Header.vue';
+import MyHeader from '../stories/Header.vue';
 
 export default {
   name: 'my-page',
