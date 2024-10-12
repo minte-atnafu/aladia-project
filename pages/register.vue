@@ -54,13 +54,13 @@ function goToLogin() {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #111;
+  background-color: #111010;
 }
 .register-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Full viewport height */
+  /* min-height: 100vh; Full viewport height */
   background-color: #121111;
 }
 
@@ -70,8 +70,8 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 400px;
-  min-height: 50vh; /* Reduced min-height */
-  height: auto; /* Let the content determine the final height */
+  min-height: 100vh;/* Reduced min-height  */
+  /* height: auto; Let the content determine the final height */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Added deeper shadow */
   position: relative; /* Position relative for absolute children */
   border: 1px solid rgba(255, 255, 255, 0.2); /* Thin light border */

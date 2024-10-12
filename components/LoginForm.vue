@@ -98,6 +98,7 @@ export default {
 }
 
 .submit-btn {
+  background: linear-gradient(to right, #450545, #050555);
   width: 100%;
   padding: 10px;
   background-color: #000;

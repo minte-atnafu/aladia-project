@@ -1,11 +1,12 @@
 <template>
     <div>
-      <h1>Welcome to My Nuxt App</h1>
-      <p>This is the homepage.</p>
+      <LandingPage/>
     </div>
   </template>
   
   <script setup>
+import LandingPage from './LandingPage.vue';
+
   // Add any necessary script logic here
   </script>
   

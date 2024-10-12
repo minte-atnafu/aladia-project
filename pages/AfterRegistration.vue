@@ -97,6 +97,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    
   }
   
   .code-input {
@@ -117,6 +118,7 @@
   
   /* Submit button */
   .submit-btn {
+    background: linear-gradient(to right, #800080, #000080);
     background-color: #333;
     color: white;
     padding: 10px;

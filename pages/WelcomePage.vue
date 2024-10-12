@@ -162,6 +162,7 @@
   
   /* Enter Button Styling */
   .enter-button {
+    background: linear-gradient(to right, #800080, #000080);
     width: 100%;
     padding: 10px;
     background-color: #555;

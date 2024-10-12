@@ -168,6 +168,7 @@
 
 /* Send Link Button */
 .send-link-btn {
+  background: linear-gradient(to right, #800080, #000080);
   width: 100%;
   padding: 15px;
   background-color: #333;

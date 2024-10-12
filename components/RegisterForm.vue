@@ -1,6 +1,6 @@
 <template>
   <form @submit.prevent="handleRegister">
-    <div class="form-group terms-section">
+    <div class="terms-section single-line">
       <input type="checkbox" id="terms" v-model="acceptTerms" required />
       <label for="terms">
         I accept <a href="#">Terms & Conditions</a> and
@@ -39,7 +39,7 @@
           placeholder="Password"
           required
         />
-         <img :src="passwordIcon" alt="Confirm Password Icon" class="input-icon left-icon" />
+        <img :src="passwordIcon" alt="Confirm Password Icon" class="input-icon left-icon" />
         <span class="toggle-password" @click="togglePasswordVisibility(1)">
           <img :src="showPassword ? eyeOpenIcon : eyeClosedIcon" alt="Toggle Password Visibility" />
         </span>
@@ -61,8 +61,9 @@
         </span>
       </div>
     </div>
-
+    <nuxt-link to="/AfterRegistration">
     <button type="submit" class="enter-btn">Enter</button>
+  </nuxt-link>
   </form>
 </template>
 
@@ -163,6 +164,7 @@ input::placeholder {
 }
 
 .enter-btn {
+  background: linear-gradient(to right, #800080, #000080);
   width: 100%;
   padding: 12px;
   background-color: #333;
@@ -177,14 +179,16 @@ input::placeholder {
   background-color: #444;
 }
 
-.terms-section {
+.terms-section.single-line {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   background-color: #1d1d1d;
   padding: 10px;
   border-radius: 6px;
   border: 1px solid #333;
+  flex-direction: row; /* Ensures the elements are on a single line */
 }
 
 .terms-section input[type="checkbox"] {
