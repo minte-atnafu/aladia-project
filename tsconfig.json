@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "extends": "./.nuxt/tsconfig.json",
   "include": [
     "pages/**/*",
@@ -7,4 +8,8 @@
     "plugins/**/*",
     "middleware/**/*"
   ]
+=======
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
+>>>>>>> df4ceea9e66c30dcc1d5ffe5c05f3ddb644ca0ce
 }
