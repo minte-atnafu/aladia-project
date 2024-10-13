@@ -31,15 +31,12 @@ export default {
   methods: {
     handleGoogleClick() {
       console.log('Google button clicked');
-      // Add Google login logic here
     },
     handleFacebookClick() {
       console.log('Facebook button clicked');
-      // Add Facebook login logic here
     },
     handleAppleClick() {
       console.log('Apple button clicked');
-      // Add Apple login logic here
     }
   }
 };
@@ -51,5 +48,6 @@ export default {
   flex-direction: column; /* Stack the buttons vertically */
   gap: 10px; /* Space between buttons */
   width: 100%;
+  align-items: center; /* Center the buttons horizontally */
 }
 </style>

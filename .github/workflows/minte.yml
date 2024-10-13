@@ -1,0 +1,40 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - Mintesinot-Atnafu
+  pull_request:
+    branches:
+      - Mintesinot-Atnafu
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '22.5.1'  
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Start the application
+      run: pnpm run dev &  
+      env:
+        CI: true  
+
+    - name: Wait for the application to be ready
+      run: npx wait-on http://localhost:3000  
+
+    - name: Run Cypress tests
+      uses: cypress-io/github-action@v2
+      with:
+        start: pnpm run dev  
+        wait-on: 'http://localhost:3000'  
+        wait-on-timeout: 60

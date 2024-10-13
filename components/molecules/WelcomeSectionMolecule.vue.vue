@@ -27,11 +27,12 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333;
+  background-color: #0f0f0f;
   border-radius: 5px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
   margin-bottom: 20px;
+  border: 2px solid #3d3c3c
 }
 
 .logo {

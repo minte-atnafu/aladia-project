@@ -12,8 +12,8 @@
   
   <style scoped>
   p {
-    color: #ccc;
-    font-size: 12px;
+    color: #f6f3f3;
+    font-size: 16px;
     margin-top: 20px;
   }
   </style>

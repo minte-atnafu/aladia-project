@@ -18,8 +18,9 @@
   <style scoped>
   .enter-button {
     background: linear-gradient(to right, #800080, #000080);
-    width: 50%;
+    width: 380px;
     padding: 10px;
+     width:100%;
     color: white;
     border: none;
     border-radius: 5px;

@@ -5,7 +5,7 @@
   </template>
   
   <script>
-  import WelcomeFormOrganism from '@/components/organisms/WelcomeFormOrganism.vue';
+  import WelcomeFormOrganism from '@/components/organisms/welcomeFormOrganism.vue';
   
   export default {
     components: {
