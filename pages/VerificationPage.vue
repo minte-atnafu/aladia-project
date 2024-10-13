@@ -6,7 +6,7 @@
   
   <script setup>
   import VerificationModalOrganism from '~/components/organisms/VerificationModalOrganism.vue';
-   import logoSrc from '@/assets/aladiaLogo.png'
+  import logoSrc from '@/assets/aladiaLogo.png'
   </script>
   
   <style scoped>

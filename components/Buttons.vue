@@ -7,7 +7,7 @@
         <img  class="fa" src="../assets/facebookLogo.png" alt="Facebook" /> Continue with Facebook
       </button>
       <button @click="$emit('appleLogin')" class="social-btn apple">
-        <img class="ap" src="../assets/appleLogo.png" alt="Apple" /> Continue with Apple
+        <img class="ap" src="../assets/appleLogo.Jpg" alt="Apple" /> Continue with Apple
       </button>
     </div>
   </template>

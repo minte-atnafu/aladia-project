@@ -1,7 +1,8 @@
 <template>
     <div class="modal-container">
       <BackToLoginMolecule/>
-      <IconAtom :src="logoSrc" />
+      <img src="@/assets/aladiaLogo.png" class="icon" alt="">
+      <!-- <IconAtom :src="logoSrc" /> -->
       <InfoMessageMolecule />
       <ButtonAtom :clickAction="submitLogin">
         Enter
@@ -44,6 +45,11 @@ import ButtonAtom from '@/components/atoms/ButtonAtom.vue';
     position: relative;
     padding-top: 60px;
   }
+  .icon {
+  width: 72px; /* Adjust as needed */
+  height: 72px; /* Adjust as needed */
+  margin-right: 8px; /* Space between icon and text */
+}
   /* Your existing styles for modal-container can be added here */
   </style>
   

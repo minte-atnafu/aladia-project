@@ -61,7 +61,7 @@
         </span>
       </div>
     </div>
-    <nuxt-link to="/AfterRegistration">
+    <nuxt-link to="/VerificationPage">
     <button type="submit" class="enter-btn">Enter</button>
   </nuxt-link>
   </form>
