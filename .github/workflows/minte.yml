@@ -6,7 +6,7 @@ on:
       - Mintesinot-Atnafu
   pull_request:
     branches:
-      - Mintesinot-Atnafu
+      - main
 
 jobs:
   cypress:
